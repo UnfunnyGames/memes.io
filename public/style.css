@@ -1,9 +1,28 @@
 .grim {
-    width: 50px;
-    height: 50px;
-    background: url(https://avatarfiles.alphacoders.com/120/120045.jpg);
-    background-size: cover;
-    border-radius: 50%;
-    border: 3px solid black;
-    position: relative;
-  }
+  width: 50px;
+  height: 50px;
+  background: url(https://avatarfiles.alphacoders.com/120/120045.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  border: 3px solid black;
+  position: relative;
+}
+
+.hpBar {
+  /*Empty box containing the red HP bar (.hp)*/
+  height: 14px;
+  width: 104px;
+  background-color: transparent;
+  border: 2px solid black;
+  position: relative;
+  left: -25px;
+  top: -25px;
+}
+
+.hp {
+  /*Red bar which represents the HP of a player*/
+  height: 10px;
+  width: 100px;
+  background-color: #f11;
+  position: relative;
+}
