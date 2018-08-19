@@ -9,7 +9,7 @@
 }
 
 .hpBar {
-  /*Empty box containing the red HP bar (.hp)*/
+  /*Empty box containing the red HP bar (.hp) - over the avatar*/
   height: 14px;
   width: 104px;
   background-color: transparent;
@@ -25,4 +25,15 @@
   width: 100px;
   background-color: #f11;
   position: relative;
+}
+
+.nickname {
+  /*Player's nickname - below the avatar*/
+  position: relative;
+  top: 40px;
+  left: -25px;
+  width: 100px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
 }
