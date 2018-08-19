@@ -1,0 +1,16 @@
+{
+  "name": "socket.io-bitconnect",
+  "version": "0.0.1",
+  "description": "A simple game using socket.io",
+  "main": "index.js",
+  "author": "Qute Bits, AlbertoQM",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.13.4",
+    "socket.io": "^2.1.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}

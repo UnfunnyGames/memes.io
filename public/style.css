@@ -1,0 +1,9 @@
+.grim {
+    width: 50px;
+    height: 50px;
+    background: url(https://avatarfiles.alphacoders.com/120/120045.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid black;
+    position: relative;
+  }
