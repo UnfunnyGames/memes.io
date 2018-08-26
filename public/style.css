@@ -34,3 +34,7 @@ body {
     border: 3px solid black;
     position: relative;
   }
+
+  .nicknameInput {
+    margin-top: 5%;
+  }

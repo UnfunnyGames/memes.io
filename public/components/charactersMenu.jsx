@@ -23,6 +23,8 @@ class CharactersMenu extends React.Component {
             <Character className="avatar" key={char.id} character={char} />
           ))}
           </div>
+          <span className="nicknameInput">Nickname: </span>
+          <input type="text" className="nicknameInput"></input>
         </div>
       </React.Fragment>
     );
