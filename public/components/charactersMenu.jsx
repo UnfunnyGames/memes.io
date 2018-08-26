@@ -35,7 +35,6 @@ class CharactersMenu extends React.Component {
   }
 
   handleClick = char => {
-    console.log("run")
     let chars = [...this.state.characters];
     let idx = chars.indexOf(char);
     chars.forEach((el) => {
