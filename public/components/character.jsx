@@ -4,11 +4,11 @@ class Character extends React.Component {
 
   render() {
     return (
-          <div className='avatar' style={this.setAvatar(this.props.character.id)} ></div>
+          <div className='avatar' style={this.setAvatar()} ></div>
     );
   }
 
-  setAvatar(i) {
+  setAvatar() {
      let url = this.props.character.url
      return ({
        background: `url(${url})`,
