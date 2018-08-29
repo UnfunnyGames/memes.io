@@ -1,9 +1,14 @@
+/* This class is the default characters selection page.
+ * It includes a title, a grid with all the playable characters
+ * and an input to set player's username.
+ */
+
 import React from "react";
 import Character from "./character.jsx";
 
 class CharactersMenu extends React.Component {
   state = {
-    characters: [
+    characters: [//Name: unused at the moment, url: direct link to image, border: actual colour of the border of the div.
       { name: "grim", url: "https://avatarfiles.alphacoders.com/120/120045.jpg", border: "black"},
       { name: "carlos", url: "https://i.imgur.com/Iq0WeCd.png", border: "black"},
       { name: "elf", url: "https://i.imgur.com/RIMs7Yu.png", border: "black"},
@@ -34,7 +39,7 @@ class CharactersMenu extends React.Component {
     );
   }
 
-  handleClick = char => {
+  handleClick = char => {//When clicking on an avatar, turn all the borders black and then turn the clicked avatar's border white (to indicate it's selected).
     let chars = [...this.state.characters];
     let idx = chars.indexOf(char);
     chars.forEach((el) => {

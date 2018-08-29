@@ -1,3 +1,7 @@
+/* Each instance of this class is a character's avatar
+ *
+ */
+
 import React from "react";
 
 class Character extends React.Component {
@@ -11,7 +15,7 @@ class Character extends React.Component {
     );
   }
 
-  setAvatar() {
+  setAvatar() {//Dynamically set characters' avatars and style properties.
     let url = this.props.character.url;
     let border = this.props.character.border;
     return {
